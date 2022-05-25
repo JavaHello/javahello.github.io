@@ -52,9 +52,8 @@
 
 > 注意标识 🍓 的需要修改
 
-官方文档[nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls), 我的完整配置[ftplugin/java.lua](https://github.com/JavaHello/nvim/blob/nvim-lsp/lua/lsp/java.lua)
+官方文档[nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls), 我的完整配置[lua/lsp/java.lua](https://github.com/JavaHello/nvim/blob/nvim-lsp/lua/lsp/java.lua)
 
-- 配置文件在 `ftplugin/java.lua` 下, 目的是当打开 `java` 文件自动加载配置
 - 下载[eclipse.jdt.ls](https://download.eclipse.org/jdtls/snapshots/?d)(建议最新版本)到 `/opt/software/jdtls/` 目录下, 目录可自定义, 用于配置 `config.cmd` 下的启动 `jar` 包路径。
 - `eclipse.jdt.ls` 启动参数配置
 
