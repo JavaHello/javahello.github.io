@@ -1,0 +1,61 @@
+Plug 'preservim/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-commentary'
+Plug 'machakann/vim-highlightedyank'
+
+let mapleader=" "
+"" Source your .vimrc
+"source ~/.vimrc
+
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=5
+
+" Do incremental searching.
+set incsearch
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+"" Map <leader>d to start debug
+"map <leader>d <Action>(Debug)
+
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)
+
+
+" Find more examples here: https://jb.gg/share-ideavimrc
+
+
+set NERDTree
+
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>o <Action>(FileStructurePopup)
+
+map <leader>fg <Action>(FindInPath)
+map <leader>fc <Action>(GotoClass)
+map <leader>ff <Action>(GotoFile)
+map <leader>fs <Action>(GotoSymbol)
+map <leader>s <Action>(SelectInProjectView)
+map gi <Action>(GotoImplementation)
+map gr <Action>(GotoDeclaration)
+
+map <leader>r <Action>(RenameElement)
+
+map [g <Action>(GotoPreviousError)
+map ]g <Action>(GotoNextError)
+map [m <Action>(MethodUp)
+map ]m <Action>(MethodDown)
+
+nnoremap gb :action Back<CR>
+nnoremap gf :action Forward<CR>
+
+map <leader>l V<Action>(ReformatCode)
+
+command! -nargs=0 OR :action OptimizeImports
