@@ -13,6 +13,6 @@
 - 安装 `lombok` 相关 `Java` 扩展包
   ![./images/vscode-java3.png](./images/vscode-java3.png)
 
-- 配置[Java runtimes](https://github.com/JavaHello/nvim/blob/21709a887656030e8d53c34525824884bde38b72/lua/kide/lsp/java.lua#L195)环境
+- 配置[Java runtimes](https://github.com/JavaHello/nvim/blob/nvim-lsp/lua/kide/lsp/java.lua#L247)环境
 
 - 打开 `Java` 工程测试
