@@ -19,8 +19,10 @@
   ```
 - 安装 `gradle` 可选
 - 安装 `vscode` 相关 `Java` 扩展包
-  ![./images/vscode-java1.png](./images/vscode-java1.png)
-  ![./images/vscode-java2.png](./images/vscode-java2.png)
+  - [vscode-java-pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+    `jdt.ls`,`junit test`, `debug` 依赖
+  - [java-decompiler](https://marketplace.visualstudio.com/items?itemName=dgileadi.java-decompiler)
+    反编译依赖
 - 安装 `lombok` 相关 `Java` 扩展包, 配置环境变量
 
   ```sh
