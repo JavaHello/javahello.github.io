@@ -23,7 +23,7 @@
     `jdt.ls`,`junit test`, `debug` 依赖
   - [java-decompiler](https://marketplace.visualstudio.com/items?itemName=dgileadi.java-decompiler)
     反编译依赖
-- 安装 `lombok` 相关 `Java` 扩展包, 配置环境变量
+- 安装 [lombok](https://projectlombok.org/download), 配置环境变量
 
   ```sh
   # lombok jar
