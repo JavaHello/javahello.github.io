@@ -156,8 +156,9 @@ sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-cl
    NAME         STATUS   ROLES           AGE   VERSION
    k8s-master   Ready    control-plane   1m   v1.26.1
    ```
-1. node join
+1. 进入`k8s-node1`, `k8s-node2` `kubeadm join`
    ```sh
+   # k8s-node1, k8s-node2
    kubeadm join 192.168.122.100:6443 --token xxx \
        --discovery-token-ca-cert-hash xxx
    ```
