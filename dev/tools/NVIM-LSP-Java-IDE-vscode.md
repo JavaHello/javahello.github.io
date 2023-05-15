@@ -33,7 +33,7 @@
 - 配置 `jdt.ls` server (可选)
   ```sh
   # jdt.ls 的 路径，默认使用 vscode-java 扩展
-  # 推荐自己 clone 代码编译
+  # 可以自己 clone 代码编译
   export JDTLS_HOME=/path/jdt.ls
   ```
 - 打开 `Java` 工程测试
