@@ -36,12 +36,4 @@
   # 推荐自己 clone 代码编译
   export JDTLS_HOME=/path/jdt.ls
   ```
-- 配置 `jdt.ls` 启动 `java`(可选)
-
-  ```sh
-  # 用于启动 jdt.ls 的 java 环境
-  # 推荐使用 jdk17, 默认使用 JAVA_HOME
-  export JDTLS_RUN_JAVA=${JAVA_17_HOME}/bin/java
-  ```
-
 - 打开 `Java` 工程测试
