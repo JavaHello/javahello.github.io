@@ -10,7 +10,7 @@
   export JAVA_8_HOME=/path/jdk8 # default
   export JAVA_11_HOME=/path/jdk11
   export JAVA_17_HOME=/path/jdk17
-  export JAVA_HOME=$JAVA_17_HOME
+  export JAVA_HOME=$JAVA_17_HOME # jdt.ls 运行依赖
   ```
 - 安装 `maven` 配置好环境变量
   ```sh
@@ -18,12 +18,13 @@
   export MAVEN_HOME=/path/maven
   ```
 - 安装 `gradle` 可选
-- 安装 `vscode` 相关 `Java` 扩展包
+- 安装 `vscode` 相关 `Java` 扩展包 (vscode/mason.nvim 任意选择一种方式安装)
   - [vscode-java-pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
     `jdt.ls`,`junit test`, `debug` 依赖
   - [java-decompiler](https://marketplace.visualstudio.com/items?itemName=dgileadi.java-decompiler)
     反编译依赖
-- 安装 [lombok](https://projectlombok.org/download), 配置环境变量
+- 如果你不是使用 vscode, 可使用 `mason.nvim` 安装 java 插件 `:MasonInstall jdtls java-debug-adapter java-test`
+- 安装 [lombok](https://projectlombok.org/download), 配置环境变量 (可选)
 
   ```sh
   # lombok jar
@@ -32,7 +33,7 @@
 
 - 配置 `jdt.ls` server (可选)
   ```sh
-  # jdt.ls 的 路径，默认使用 vscode-java 扩展
+  # jdt.ls 的 路径，默认使用 vscode-java 扩展 或者 mason.nvim 安装的 jdtls
   # 可以自己 clone 代码编译
   export JDTLS_HOME=/path/jdt.ls
   ```
