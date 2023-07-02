@@ -24,11 +24,14 @@
   - [java-decompiler](https://marketplace.visualstudio.com/items?itemName=dgileadi.java-decompiler)
     反编译依赖
 - 如果你不是使用 vscode, 可使用 `mason.nvim` 安装 java 插件 `:MasonInstall jdtls java-debug-adapter java-test`
-- 安装 [lombok](https://projectlombok.org/download), 配置环境变量 (可选)
+- 配置 [lombok](https://projectlombok.org/download) 无需手动下载, `vscode-java`, `mason.nvim jdtls` 都包含了
 
   ```sh
-  # lombok jar
-  export LOMBOK_JAR=/path/lombok.jar
+  # 默认为Y启用
+  # 优先读取 vscode-java 扩展的 lombok-x.x.x.jar
+  # 未找到读取 jdtls 扩展 lombok.jar
+  # 最后没有读取到不会启用
+  export LOMBOK_ENABLE=N
   ```
 
 - 配置 `jdt.ls` server (可选)
