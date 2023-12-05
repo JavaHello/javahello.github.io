@@ -10,6 +10,8 @@ sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-cl
 1. 创建虚拟机
 
    ```sh
+   # virt 这里使用 root 用户
+   virsh net-start default # 启用默认网络
    virt-install --virt-type kvm \
    --name k8s-master \
    --vcpus 4 --memory 8096 \
@@ -47,6 +49,8 @@ sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-cl
 1. 必须项配置
 
    ```sh
+   swapoff -a # 禁用 swap
+   vim /etc/fstab # 注释 swap 开头的行
    # 转发 IPv4 并让 iptables 看到桥接流量
    cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
    overlay
@@ -93,17 +97,6 @@ sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-cl
 
    重启`systemctl restart containerd`
 
-1. 网络插件配置，这里使用的`flannel`
-   `vim /run/flannel/subnet.env`
-   ```txt
-    # 需要和 kubeadm init --pod-network-cidr=10.244.0.0/16 一致
-    FLANNEL_NETWORK=10.244.0.0/16
-    FLANNEL_SUBNET=10.244.0.1/24
-    FLANNEL_MTU=1450
-    FLANNEL_IPMASQ=true
-   ```
-   这个可以初始化集群安装网络插件时配置，因为每台机器都需要配置，所以先配置了
-
 ## clone 虚拟机(物理机)
 
 1. clone 两个节点 k8s-node1, k8s-node2
@@ -135,8 +128,8 @@ sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-cl
    <dhcp>
      <range start='192.168.122.2' end='192.168.122.254'/>
      <host mac='52:54:00:72:72:b1' name='k8s-master' ip='192.168.122.100'/>
-     <host mac='52:54:00:72:72:b2' name='k8s-master' ip='192.168.122.101'/>
-     <host mac='52:54:00:72:72:b3' name='k8s-master' ip='192.168.122.102'/>
+     <host mac='52:54:00:72:72:b2' name='k8s-node1' ip='192.168.122.101'/>
+     <host mac='52:54:00:72:72:b3' name='k8s-node2' ip='192.168.122.102'/>
    </dhcp>
    ```
    重启网络`virsh net-destroy default` `virsh net-start default`
@@ -151,6 +144,14 @@ sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-cl
    # --image-repository=registry.aliyuncs.com/google_containers 使用国内镜像，目前国内网络必须配置
    kubeadm init --pod-network-cidr=10.244.0.0/16 --image-repository=registry.aliyuncs.com/google_containers
    ```
+1. 网络插件配置，这里使用的[flannel](https://github.com/flannel-io/flannel)
+
+   ```txt
+   kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+   # 如果 podCIDR 不是 10.244.0.0/16 需要修改配置文件
+   # 和 kubeadm init --pod-network-cidr=10.244.0.0/16 保持一致
+   ```
+
 1. 查看状态`kubectl get nodes`
    ```txt
    NAME         STATUS   ROLES           AGE   VERSION
