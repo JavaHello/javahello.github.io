@@ -93,6 +93,12 @@ sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-cl
           [plugins."io.containerd.grpc.v1.cri".registry.mirrors."docker.io"]
           endpoint = ["https://xxxxx.mirror.aliyuncs.com", "https://registry-1.docker.io"]
 
+   # 或启用代理
+   # /lib/systemd/system/containerd.service
+   [Service]
+   Environment="HTTP_PROXY=http://192.168.50.165:1087"
+   Environment="HTTPS_PROXY=http://192.168.50.165:1087"
+   Environment="NO_PROXY=localhost,127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,.svc,.cluster.local,.ewhisper.cn"
    ```
 
    重启`systemctl restart containerd`
