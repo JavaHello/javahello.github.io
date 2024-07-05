@@ -1,3 +1,7 @@
+---
+title: "Harbor 安装使用"
+---
+
 # Harbor 安装使用
 
 安装参考 [install-config](https://goharbor.io/docs/2.9.0/install-config/)
@@ -18,7 +22,7 @@
   # hostname: 192.168.50.165
   hostname: 0.0.0.0
   ```
-- 如果使用 IP 访问或HTTP, docker 配置
+- 如果使用 IP 访问或 HTTP, docker 配置
   ```json
   # /etc/docker/daemon.json
   {

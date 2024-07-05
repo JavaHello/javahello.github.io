@@ -1,3 +1,9 @@
+---
+title: "文件比对"
+series: "学习使用 neovim"
+tags: ["vim"]
+---
+
 # 文件比对
 
 `DIFF`

@@ -1,3 +1,9 @@
+---
+title: "从零打造 NVIM IDE"
+series: "学习使用 neovim"
+tags: ["vim"]
+---
+
 # 从零打造 NVIM IDE
 
 [安装NVIM](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-package)

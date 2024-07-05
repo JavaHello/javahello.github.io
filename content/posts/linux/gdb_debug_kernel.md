@@ -1,3 +1,8 @@
+---
+title: "使用 GDB + Qemu 调试 Linux 内核"
+tags: ["Linux", "GDB", "Qemu"]
+---
+
 # 使用 GDB + Qemu 调试 Linux 内核
 
 ## Linux 内核编译

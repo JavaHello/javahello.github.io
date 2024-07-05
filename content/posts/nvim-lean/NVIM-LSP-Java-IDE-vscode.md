@@ -1,3 +1,9 @@
+---
+title: "NVIM 打造 Java IDE"
+series: "学习使用 neovim"
+tags: ["vim"]
+---
+
 # NVIM 打造 Java IDE
 
 [JavaHello/nvim](https://github.com/JavaHello/nvim/tree/nvim-lsp)

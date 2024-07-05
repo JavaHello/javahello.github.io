@@ -1,3 +1,9 @@
+---
+title: "NVIM 打造 Java IDE"
+series: "学习使用 neovim"
+tags: ["vim"]
+---
+
 # NVIM 打造 Java IDE
 
 当你习惯了 `Vim` 文本编辑器，你就习惯了 `Vim` 文本编辑器(🐶)。
@@ -62,7 +68,7 @@
     -- The command that starts the language server
     -- See: https://github.com/eclipse/eclipse.jdt.ls#running-from-the-command-line
     cmd = {
-      -- 🍓 需要 jdk11 或以上 
+      -- 🍓 需要 jdk11 或以上
       '/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/bin/java', -- or '/path/to/java11_or_newer/bin/java'
       '-Declipse.application=org.eclipse.jdt.ls.core.id1',
       '-Dosgi.bundles.defaultStartLevel=4',
@@ -102,30 +108,35 @@
 - 自定义`Maven settings.xml` 文件, 配置 `MAVEN_SETTINGS` 变量（可选）
 
 ##### 配置快捷键
+
 ```lua
 local map = vim.api.nvim_set_keymap
 -- 快捷键统一配置在了 keybindings.lua 文件中, 这里加载一下就可以了
 require('keybindings').maplsp(map)
 ```
+
 到这一步就可以愉快到使用了
 
 ##### debug 和 junit test 配置
 
 - 下载安装 [java-debug](https://github.com/microsoft/java-debug) 和 [vscode-java-test](https://github.com/microsoft/vscode-java-test)插件(微软为 vscode 开发的)
-    ```sh
-    # java-debug
-    cd /opt/software/lsp/java
-    git clone git@github.com:microsoft/java-debug.git
-    cd java-debug
-    ./mvnw clean install
 
-    # vscode-java-test
-    git clone git@github.com:microsoft/vscode-java-test.git
-    cd vscode-java-test
-    npm install
-    npm run build-plugin
-    ```
+  ```sh
+  # java-debug
+  cd /opt/software/lsp/java
+  git clone git@github.com:microsoft/java-debug.git
+  cd java-debug
+  ./mvnw clean install
+
+  # vscode-java-test
+  git clone git@github.com:microsoft/vscode-java-test.git
+  cd vscode-java-test
+  npm install
+  npm run build-plugin
+  ```
+
 - 添加配置到`ftplugin/java.lua`
+
   ```lua
   -- This bundles definition is the same as in the previous section (java-debug installation)
     local bundles = {
@@ -148,21 +159,23 @@ require('keybindings').maplsp(map)
     end
 
   ```
-- 快捷键
-    ```txt
-    <Leader>b 添加取消断点
-    命令模式下
-    :TestClass
-    :TestMethod
-    执行当前class的 junit 测试方法
-    :TestClassUI
-    :TestMethodUI
-    会打开调试页面(依赖 nvim-dap-ui 插件)
 
-    F5 启动 main 方法, 如无法找到配置,需要先执行 :JdtRefreshDebugConfigs  
-    F10 单步
-    其它功能可自己探索
-    ```
+- 快捷键
+
+  ```txt
+  <Leader>b 添加取消断点
+  命令模式下
+  :TestClass
+  :TestMethod
+  执行当前class的 junit 测试方法
+  :TestClassUI
+  :TestMethodUI
+  会打开调试页面(依赖 nvim-dap-ui 插件)
+
+  F5 启动 main 方法, 如无法找到配置,需要先执行 :JdtRefreshDebugConfigs
+  F10 单步
+  其它功能可自己探索
+  ```
 
 ### 使用视频
 

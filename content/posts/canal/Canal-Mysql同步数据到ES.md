@@ -1,3 +1,7 @@
+---
+title: "Canal MySql 数据增量/全量同步数据到 ES"
+---
+
 # Canal MySql 数据增量/全量同步数据到 ES
 
 - [Canal](https://github.com/alibaba/canal) 项目地址

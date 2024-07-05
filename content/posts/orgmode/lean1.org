@@ -1,0 +1,38 @@
+#+title: Lean Org Mode
+
+* Outliner
+Text text text
+ - more items
+ - list
+ - OK
+** Title 2
+ - [ ] hello
+ - [X] ok
+** Tables
+
+| Some | Data   |
+|------+--------|
+|   12 | bukkkk |
+|   32 | more   |
+|   ok | nice   |
+|   23 | kok    |
+** Fone
+*Blol* /i/ =fff=
+[[file:./lean1.pdf
+]]
+* Source code
+
+#+BEGIN_SRC java
+  public class Demo {
+  }
+#+END_SRC
+
+* DONE key C-c C-d
+DEADLINE: <2022-12-21 Wed>
+
+
+* DONE key C-c C-t
+DEADLINE: <2022-12-28 Wed 12:30>
+
+* Test Load
+
