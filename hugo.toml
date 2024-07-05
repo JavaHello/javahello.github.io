@@ -1,4 +1,4 @@
-baseURL = 'https://kaiv2.org/'
+baseURL = 'https://blog.kaiv2.org/'
 languageCode = 'zh-CN'
 title = 'Kai'
 theme = 'poison'
