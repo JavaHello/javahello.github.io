@@ -10,48 +10,13 @@ tags: ["Kafka"]
   "version": 1,
   "partitions": [
     {
-      "topic": "inquiryCreateDkOrderMessage",
+      "topic": "message",
       "partition": 0,
       "replicas": [1, 2, 3]
     },
     {
-      "topic": "dkOrderNodeMessage",
-      "partition": 0,
-      "replicas": [1, 2, 3]
-    },
-    {
-      "topic": "inquiryOrderNodeMessage",
-      "partition": 0,
-      "replicas": [1, 2, 3]
-    },
-    {
-      "topic": "skOrderNodeMessage",
-      "partition": 0,
-      "replicas": [1, 2, 3]
-    },
-    {
-      "topic": "skOrderNodeMessage",
+      "topic": "message",
       "partition": 1,
-      "replicas": [1, 2, 3]
-    },
-    {
-      "topic": "skOrderNodeMessage",
-      "partition": 2,
-      "replicas": [1, 2, 3]
-    },
-    {
-      "topic": "sysOptLogMessage",
-      "partition": 0,
-      "replicas": [1, 2, 3]
-    },
-    {
-      "topic": "sysOptLogMessage",
-      "partition": 1,
-      "replicas": [1, 2, 3]
-    },
-    {
-      "topic": "sysOptLogMessage",
-      "partition": 2,
       "replicas": [1, 2, 3]
     },
     {
