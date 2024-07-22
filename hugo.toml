@@ -6,6 +6,7 @@ theme = 'poison'
 [params]
     brand = "Kai"
     description = "Kai's blog"
+    brand_image = "/favicon.png"
     dark_mode = false
     front_page_content = ["posts"] 
     menu = [
