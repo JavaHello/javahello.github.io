@@ -52,4 +52,7 @@ jdtls_config["init_options"] = {
 ## 效果
 
 ![Nvim gif](/nvim/nvim-java-deps.gif)
-![Nvim mp4](/nvim/nvim-java-deps.mp4)
+
+<video controls>
+  <source src="/nvim/nvim-java-deps.mp4" type="video/mp4">
+</video>
