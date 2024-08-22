@@ -1,6 +1,7 @@
 ---
 title: "NVIM java dependency"
 series: "neovim"
+date: 2024-08-22
 tags: ["vim"]
 ---
 
@@ -52,7 +53,3 @@ jdtls_config["init_options"] = {
 ## 效果
 
 ![Nvim gif](/nvim/nvim-java-deps.gif)
-
-<video controls>
-  <source src="/nvim/nvim-java-deps.mp4" type="video/mp4">
-</video>
