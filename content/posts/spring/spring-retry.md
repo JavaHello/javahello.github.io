@@ -92,3 +92,5 @@ Spring Retry 提供了一种简单的重试机制，可以帮助我们在调用�
 
 个人推荐使用编程方式，更加灵活，偶合度更低，更容易控制。需要修改调用逻辑时，可以在 lambda 中进行修改。旧项目中调用第三方服务时，可能已经有了一些重试逻辑不够优雅，这时可以使用编程方式来进行替换，不需太多修改。
 
+## 参考
+[Spring Retry](https://github.com/spring-projects/spring-retry)
