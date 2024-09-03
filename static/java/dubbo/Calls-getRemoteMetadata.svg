@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<svg width="1084" height="767" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <polygon points="4,763 4,4 1080,4 1080,763 4,763" stroke-opacity="0.000000" stroke="#fffffe" fill-opacity="0.000000" fill="#fffffe"/>
+ <polygon points="666,46 536,46 536,70 666,70 666,46" stroke="#90c4e4" fill="none"/>
+ <text x="544" y="62" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getAppMetadata ▶</text>
+ <polygon points="900,25 770,25 770,49 900,49 900,25" stroke="#90c4e4" fill="none"/>
+ <text x="778" y="41" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getAppMetadata ▷</text>
+ <path d="M 666 52 C 697 49, 733 46, 764 43" stroke="#4e8cb9" fill="none"/>
+ <polygon points="764,42 769,43 764,45 764,42" stroke="#4e8cb9" fill="none"/>
+ <polygon points="900,67 770,67 770,91 900,91 900,67" stroke="#90c4e4" fill="none"/>
+ <text x="778" y="83" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getAppMetadata ▶</text>
+ <path d="M 666 64 C 697 67, 733 70, 764 73" stroke="#4e8cb9" fill="none"/>
+ <polygon points="764,71 769,73 764,74 764,71" stroke="#4e8cb9" fill="none"/>
+ <polygon points="1080,4 972,4 972,28 1080,28 1080,4" stroke="#90c4e4" fill="none"/>
+ <text x="980" y="20" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">toJavaObject ▷</text>
+ <path d="M 873 67 C 882 64, 891 61, 900 58 C 927 49, 958 38, 983 30" stroke="#4e8cb9" fill="none"/>
+ <polygon points="982,28 987,28 983,32 982,28" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="1065,46 987,46 987,70 1065,70 1065,46" stroke="#90c4e4" fill="none"/>
+ <text x="995" y="62" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getJson ▷</text>
+ <path d="M 900 72 C 927 69, 957 66, 981 63" stroke="#4e8cb9" fill="none"/>
+ <polygon points="981,61 986,62 981,65 981,61" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="1080,88 972,88 972,112 1080,112 1080,88" stroke="#90c4e4" fill="none"/>
+ <text x="980" y="104" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getNodePath ▷</text>
+ <path d="M 900 86 C 921 88, 945 91, 966 93" stroke="#4e8cb9" fill="none"/>
+ <polygon points="966,92 970,94 965,95 966,92" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="1074,130 977,130 977,154 1074,154 1074,130" stroke="#90c4e4" fill="none"/>
+ <text x="986" y="146" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getContent ▷</text>
+ <path d="M 873 91 C 904 102, 949 117, 982 128" stroke="#4e8cb9" fill="none"/>
+ <polygon points="982,126 987,130 981,130 982,126" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="383,235 277,235 277,259 383,259 383,235" stroke="#90c4e4" fill="none"/>
+ <text x="285" y="251" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getMetadata ▶</text>
+ <path d="M 339 235 C 362 204, 428 120, 504 79 C 512 75, 521 71, 530 68" stroke="#4e8cb9" fill="none"/>
+ <polygon points="530,67 535,67 531,70 530,67" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="673,88 529,88 529,112 673,112 673,88" stroke="#90c4e4" fill="none"/>
+ <text x="537" y="104" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">IllegalStateException </text>
+ <path d="M 344 235 C 371 209, 437 151, 504 121 C 510 118, 517 116, 523 114" stroke="#4e8cb9" fill="none"/>
+ <polygon points="522,112 528,112 523,115 522,112" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="664,130 538,130 538,154 664,154 664,130" stroke="#90c4e4" fill="none"/>
+ <text x="546" y="146" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">equalsIgnoreCase </text>
+ <path d="M 352 235 C 384 216, 447 183, 504 163 C 513 160, 522 157, 531 155" stroke="#4e8cb9" fill="none"/>
+ <polygon points="531,153 536,154 532,156 531,153" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="639,172 563,172 563,196 639,196 639,172" stroke="#90c4e4" fill="none"/>
+ <text x="571" y="188" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">HashMap </text>
+ <path d="M 381 235 C 415 226, 463 215, 504 205 C 521 201, 541 197, 557 193" stroke="#4e8cb9" fill="none"/>
+ <polygon points="556,191 562,192 557,195 556,191" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="626,214 576,214 576,238 626,238 626,214" stroke="#90c4e4" fill="none"/>
+ <text x="585" y="230" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">get ▷</text>
+ <path d="M 383 243 C 439 239, 525 232, 570 228" stroke="#4e8cb9" fill="none"/>
+ <polygon points="570,227 575,228 570,230 570,227" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="626,256 576,256 576,280 626,280 626,256" stroke="#90c4e4" fill="none"/>
+ <text x="584" y="272" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">put ▷</text>
+ <path d="M 383 251 C 439 255, 525 262, 570 266" stroke="#4e8cb9" fill="none"/>
+ <polygon points="570,264 575,266 570,267 570,264" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="698,298 504,298 504,322 698,322 698,298" stroke="#90c4e4" fill="none"/>
+ <text x="512" y="314" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">SubscriberMetadataIdentifier </text>
+ <path d="M 383 257 C 399 260, 416 264, 432 268 C 464 276, 472 281, 504 289 C 514 291, 524 294, 534 296" stroke="#4e8cb9" fill="none"/>
+ <polygon points="535,295 539,298 534,298 535,295" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="668,340 534,340 534,364 668,364 668,340" stroke="#90c4e4" fill="none"/>
+ <text x="542" y="356" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getExtendParams ▷</text>
+ <path d="M 383 253 C 399 256, 417 260, 432 268 C 470 287, 466 312, 504 331 C 511 335, 519 338, 528 340" stroke="#4e8cb9" fill="none"/>
+ <polygon points="528,339 532,342 527,342 528,339" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="672,382 530,382 530,406 672,406 672,382" stroke="#90c4e4" fill="none"/>
+ <text x="538" y="398" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getRegistryCluster ▷</text>
+ <path d="M 383 250 C 400 253, 418 258, 432 268 C 479 299, 457 341, 504 373 C 510 377, 517 381, 524 383" stroke="#4e8cb9" fill="none"/>
+ <polygon points="525,382 529,385 524,385 525,382" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="665,424 537,424 537,448 665,448 665,424" stroke="#90c4e4" fill="none"/>
+ <text x="545" y="440" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getServiceName ▷</text>
+ <path d="M 383 249 C 400 252, 418 257, 432 268 C 490 313, 447 370, 504 415 C 512 421, 521 426, 531 429" stroke="#4e8cb9" fill="none"/>
+ <polygon points="531,427 536,431 530,431 531,427" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="155,487 4,487 4,511 155,511 155,487" stroke="#1976d2" stroke-width="3" fill="none"/>
+ <text x="13" y="503" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getRemoteMetadata ▶</text>
+ <path d="M 85 486 C 99 446, 145 325, 227 268 C 240 259, 256 254, 271 251" stroke="#4e8cb9" fill="none"/>
+ <polygon points="270,249 276,250 271,252 270,249" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="359,277 300,277 300,301 359,301 359,277" stroke="#90c4e4" fill="none"/>
+ <text x="309" y="293" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">equals </text>
+ <path d="M 87 486 C 104 451, 155 355, 227 310 C 247 298, 274 292, 294 290" stroke="#4e8cb9" fill="none"/>
+ <polygon points="294,288 299,290 294,292 294,288" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="359,319 301,319 301,343 359,343 359,319" stroke="#90c4e4" fill="none"/>
+ <text x="309" y="335" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">error ▷</text>
+ <path d="M 90 486 C 110 457, 164 386, 227 352 C 248 341, 274 336, 294 333" stroke="#4e8cb9" fill="none"/>
+ <polygon points="294,331 299,333 294,335 294,331" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="364,361 296,361 296,385 364,385 364,361" stroke="#90c4e4" fill="none"/>
+ <text x="304" y="377" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">debug ▷</text>
+ <path d="M 95 486 C 120 463, 174 418, 227 394 C 247 385, 271 380, 290 377" stroke="#4e8cb9" fill="none"/>
+ <polygon points="290,375 295,376 290,379 290,375" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="393,403 266,403 266,427 393,427 393,403" stroke="#90c4e4" fill="none"/>
+ <text x="275" y="419" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">isDebugEnabled ▷</text>
+ <path d="M 107 486 C 136 472, 184 450, 227 436 C 238 433, 249 430, 260 427" stroke="#4e8cb9" fill="none"/>
+ <polygon points="260,425 265,426 260,429 260,425" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="394,445 266,445 266,469 394,469 394,445" stroke="#90c4e4" fill="none"/>
+ <text x="274" y="461" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getMetadataInfo ▷</text>
+ <path d="M 157 486 C 190 481, 228 474, 260 469" stroke="#4e8cb9" fill="none"/>
+ <polygon points="260,467 265,468 260,470 260,467" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="379,487 281,487 281,511 379,511 379,487" stroke="#90c4e4" fill="none"/>
+ <text x="289" y="503" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getAddress ▷</text>
+ <path d="M 157 499 C 195 499, 240 499, 274 499" stroke="#4e8cb9" fill="none"/>
+ <polygon points="274,497 279,499 274,501 274,497" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="366,529 294,529 294,553 366,553 366,529" stroke="#90c4e4" fill="none"/>
+ <text x="302" y="545" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getProxy </text>
+ <path d="M 157 512 C 200 519, 252 528, 288 534" stroke="#4e8cb9" fill="none"/>
+ <polygon points="288,532 292,535 287,536 288,532" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="384,571 276,571 276,595 384,595 384,571" stroke="#90c4e4" fill="none"/>
+ <text x="284" y="587" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">destroyProxy ▷</text>
+ <path d="M 107 512 C 136 526, 184 548, 227 562 C 241 566, 256 570, 270 573" stroke="#4e8cb9" fill="none"/>
+ <polygon points="270,571 274,574 269,575 270,571" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="375,613 284,613 284,637 375,637 375,613" stroke="#90c4e4" fill="none"/>
+ <text x="293" y="629" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">referProxy ▷</text>
+ <path d="M 95 512 C 120 535, 174 580, 227 604 C 243 611, 262 616, 279 619" stroke="#4e8cb9" fill="none"/>
+ <polygon points="279,617 283,620 278,621 279,617" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="388,655 272,655 272,679 388,679 388,655" stroke="#90c4e4" fill="none"/>
+ <text x="280" y="671" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">selectInstance ▷</text>
+ <path d="M 90 512 C 110 541, 164 612, 227 646 C 239 652, 253 657, 266 660" stroke="#4e8cb9" fill="none"/>
+ <polygon points="266,658 270,661 265,662 266,658" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="432,697 227,697 227,721 432,721 432,697" stroke="#90c4e4" fill="none"/>
+ <text x="236" y="713" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getExportedServicesRevision ▷</text>
+ <path d="M 87 512 C 104 547, 155 643, 227 688 C 231 690, 235 692, 239 694" stroke="#4e8cb9" fill="none"/>
+ <polygon points="240,693 244,697 238,696 240,693" stroke="#4e8cb9" fill="#4e8cb9"/>
+ <polygon points="419,739 240,739 240,763 419,763 419,739" stroke="#90c4e4" fill="none"/>
+ <text x="249" y="755" fill="#000000" font-family=".AppleSystemUIFont" font-size="13">getMetadataStorageType ▷</text>
+ <path d="M 85 512 C 99 552, 145 673, 227 730 C 231 732, 234 734, 238 736" stroke="#4e8cb9" fill="none"/>
+ <polygon points="238,735 242,739 237,738 238,735" stroke="#4e8cb9" fill="#4e8cb9"/>
+</svg>

@@ -45,8 +45,8 @@ tags: ["dubbo"]
 
 ```
 
-![Calls](/java/dubbo/Calls-getRemoteMetadata.png)
-![ControlFlow](/java/dubbo/ControlFlow-getRemoteMetadata.png)
+![Calls](/java/dubbo/Calls-getRemoteMetadata.svg)
+![ControlFlow](/java/dubbo/ControlFlow-getRemoteMetadata.svg)
 
 - 应用配置
 
