@@ -45,6 +45,9 @@ tags: ["dubbo"]
 
 ```
 
+![Calls](/java/dubbo/Calls-getRemoteMetadata.png)
+![ControlFlow](/java/dubbo/ControlFlow-getRemoteMetadata.png)
+
 - 应用配置
 
 ```yml
